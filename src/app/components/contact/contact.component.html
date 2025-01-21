@@ -1,0 +1,31 @@
+<section class="mt-5 pt-5 pb-3">
+    <div class="container-sm headingColor">
+        <h1 class="fw-bold text-center">conatct section</h1>
+        <div class="star">
+            <div class="after"></div>
+            <i class="fa-solid fa-star mx-3"></i>
+            <div class="after"></div>
+        </div>
+        <div class="form">
+            <div class="input">
+                <p [class.top-0]="title1" class="inputTitle m-0">User Name :</p>
+                <input type="text" (input)="showInputTitle1()" placeholder="userName">
+            </div>
+            <div class="input">
+                <p [class.top-0]="title2" class="inputTitle m-0">User Age :</p>
+                <input type="text" (input)="showInputTitle2()" placeholder="userAge">
+            </div>
+            <div class="input">
+                <p [class.top-0]="title3" class="inputTitle m-0">User Email :</p>
+                <input type="text" (input)="showInputTitle3()" placeholder="userEmail">
+            </div>
+            <div class="input">
+                <p [class.top-0]="title4" class="inputTitle m-0">User Password :</p>
+                <input type="text" (input)="showInputTitle4()" placeholder="userPassword">
+            </div>
+            <div class="input">
+                <button>Send Message</button>
+            </div>
+        </div> 
+    </div>
+</section>

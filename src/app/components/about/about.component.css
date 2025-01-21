@@ -1,0 +1,26 @@
+/* styles.css */
+*{
+  box-sizing: border-box ;
+}
+h1
+{
+    color: white;
+    font-size: 2.5rem !important;
+    text-transform: uppercase !important;
+}
+
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb),var(--bs-text-opacity)) !important;
+  }
+  .align-items-center {
+    align-items: center !important;
+  }
+  p{
+    color: aliceblue;
+  }
+  .star
+  {
+    color: var(--mainColor3)!important;
+  }
+  
